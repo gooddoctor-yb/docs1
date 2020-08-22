@@ -1,4 +1,5 @@
 {
+  "main": "",
   "scripts": {
     "examples": "docusaurus-examples",
     "start": "docusaurus-start",
@@ -7,7 +8,7 @@
     "write-translations": "docusaurus-write-translations",
     "version": "docusaurus-version",
     "rename-version": "docusaurus-rename-version",
-    "pages":"GIT_USER=gooddoctor-yb CURRENT_BRANCH=master npm run publish-gh-pages"
+    "pages": "GIT_USER=gooddoctor-yb CURRENT_BRANCH=master npm run publish-gh-pages"
   },
   "devDependencies": {
     "docusaurus": "^1.14.6"
