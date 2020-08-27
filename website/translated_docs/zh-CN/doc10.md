@@ -1,6 +1,6 @@
 ---
 id: doc10
-title: This is Doc 10
+title: 这是文档10
 ---
 
 I can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
@@ -11,6 +11,6 @@ I can write content using [GitHub-flavored Markdown syntax](https://github.githu
 
 > Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse id sem consectetuer libero luctus adipiscing.
 
-- Hey
+- 嘿，你好
 - Ho
-- Let's Go
+- 让我们开始
