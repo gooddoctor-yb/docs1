@@ -1,8 +1,16 @@
 {
   "docs": {
     "Docusaurus": [
-      "doc1",
-      "doc9"
+      "Docusaurus/doc1",
+      "Docusaurus/doc9",
+      {
+        "type": "subcategory",
+        "label": "Level2",
+        "ids": [
+          "Docusaurus/Level2/doc11",
+          "Docusaurus/Level2/doc12"
+        ]
+      }
     ],
     "First Category": [
       "doc2",
@@ -12,10 +20,10 @@
       "doc3"
     ]
   },
-  "docs-other": {
-    "First Category": [
-      "doc4",
-      "doc5"
+  "api": {
+    "API": [
+      "API/doc4",
+      "API/doc5"
     ]
   }
 }

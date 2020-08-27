@@ -24,7 +24,7 @@ const siteConfig = {
   title: "Test Site", // Title for your website.
   tagline: "A website for testing",
   url: "https://gooddoctor-yb.github.io", // Your website URL
-  baseUrl: "/docs1/", // Base URL for your project */
+  baseUrl: "/", // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
@@ -38,12 +38,19 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    { doc: "doc1", label: "Docs" },
-    { doc: "doc4", label: "API" },
+    { page: "version", label: "v0.1.0" },
+    { doc: "Docusaurus/doc1", label: "Docs" },
+    { doc: "API/doc4", label: "API" },
     { page: "help", label: "Help" },
     { blog: true, label: "Blog" },
+    { languages: true },
+    { search: true }
   ],
-
+  algolia: {
+    appId: "37YTCPPPTL",
+    apiKey: '3b8e7b27f5fa1682a20a56957913cfa8',
+    indexName: 'gooddoctor'
+  },
   // If you have users set above, you add it here:
   users,
 
